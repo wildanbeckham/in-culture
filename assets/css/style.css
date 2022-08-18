@@ -1,0 +1,98 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #f4f7ff;
+  font-family: 'Plus Jakarta Sans', sans-serif;
+}
+
+:root {
+  --var-primary: #009da5;
+  --var-second: rgba(0, 157, 165, 0.1);
+}
+
+.btn-first {
+  background-color: var(--var-primary);
+  color: #fff;
+  border-radius: 5px;
+}
+
+.btn-first:hover {
+  background-color: #fff;
+  color: var(--var-primary);
+}
+
+.btn-second {
+  background-color: var(--var-second);
+  color: var(--var-primary);
+  border: 1px solid rgba(0, 157, 165, 0.2);
+  border-radius: 5px;
+}
+
+.btn-second:hover {
+  color: var(--var-primary);
+  border: 1px solid rgba(0, 157, 165, 0.2);
+}
+
+h5 {
+  color: var(--var-primary);
+  font-weight: 700;
+}
+
+.judul {
+  color: var(--var-primary);
+  font-weight: 500;
+}
+
+/* Hero */
+#hero h1 {
+  font-weight: 700;
+}
+/* Hero */
+
+/* tentang */
+#tentang h1 {
+  font-weight: 500;
+}
+/* tentang */
+
+/* Portfolio */
+
+/* Portfolio */
+
+/* Price */
+#price p i {
+  color: var(--var-primary);
+}
+/* Price */
+
+/* Kontak */
+#kontak {
+  background-color: var(--var-primary);
+}
+
+#kontak .form-control {
+  background-color: #f2f3f4;
+  opacity: 0.2;
+  border-radius: 5px;
+}
+/* Kontak */
+
+/* Footer */
+#footer {
+  background-color: #1b1c31;
+}
+
+#footer ul li {
+  list-style-type: none;
+}
+
+#footer ul li a {
+  text-decoration: none;
+}
+/* Footer */
+/* 
+@media only screen and (max-width: 991px) {
+  #price {
+    margin-top: 80vh !important;
+  }
+} */
