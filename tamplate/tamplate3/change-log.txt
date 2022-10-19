@@ -1,0 +1,9 @@
+Date:  13-07-2021
+
+Version: 1.0.1
+
+===================
+
+01. Bootstrap Framework 5.0.0-beta1 to 5.0.2 Update
+02. jQuery v3.5.1 to v3.6.0 Update
+03. Update - minor css issue fixed
